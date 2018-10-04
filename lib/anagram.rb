@@ -9,7 +9,7 @@ class Anagram
   end
   
   def match(phrase)
-    phrase=phrase.split(" ")
+    
     phrase.map{ |x| x if self.isAnagram(x,@word) }
   end
   
