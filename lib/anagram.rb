@@ -15,7 +15,7 @@ class Anagram
   
   def self.isAnagram(word1,word2)
     
-    word1.
+    word1.split("").sort
   end
   
   
