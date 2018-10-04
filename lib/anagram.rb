@@ -8,4 +8,12 @@ class Anagram
     @word=word.split("")
   end
   
+  def match(phrase)
+    phrase=phrase.split(" ")
+    
+  end
+  
+  
+  
+  
 end
