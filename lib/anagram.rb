@@ -5,7 +5,7 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @word=word.split("")
+    @word=word
   end
   
     def self.isAnagram(word1,word2)
