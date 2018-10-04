@@ -10,12 +10,12 @@ class Anagram
   
   def match(phrase)
     phrase=phrase.split(" ")
-    
+    phrase.map{ |x| x if self.isAnagram(x,@word}
   end
   
   def self.isAnagram(word1,word2)
     
-    word1.split("").sort
+    word1.split("").sort == word2.split("").sort
   end
   
   
