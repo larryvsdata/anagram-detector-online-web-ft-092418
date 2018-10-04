@@ -13,7 +13,10 @@ class Anagram
     
   end
   
-  
+  def self.isAnagram(word1,word2)
+    
+    word1.
+  end
   
   
 end
