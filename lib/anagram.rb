@@ -15,7 +15,7 @@ class Anagram
   
   def match(phrase)
     
-    phrase.map{ |x| x if self.isAnagram(x,@word) }
+    phrase.map{ |x| x if self.isAnagram(x,@word) }.compact
   end
   
 
