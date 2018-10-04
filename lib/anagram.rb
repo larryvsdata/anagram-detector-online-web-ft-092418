@@ -8,7 +8,7 @@ class Anagram
     @word=word
   end
   
-    def self.isAnagram(word1,word2)
+    def isAnagram(word1,word2)
     
     word1.split("").sort == word2.split("").sort
   end
